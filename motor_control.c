@@ -1,5 +1,7 @@
 #include "sumovore.h"
 #include "motor_control.h"
+#define SPEED medium
+
 
 void spin_left(void);
 void turn_left(void);
@@ -24,7 +26,7 @@ void motor_control(void)
 void spin_left(void)
 {
   set_motor_speed(left, rev_fast, 0); 
-  set_motor_speed(right, fast, 0); 
+  set_motor_speed(right, SPEED, 0); 
 }
 
 void turn_left(void)
@@ -34,8 +36,8 @@ void turn_left(void)
 }
 void straight_fwd(void)
 {
-  set_motor_speed(left, fast, 0); 
-  set_motor_speed(right, fast, 0); 
+  set_motor_speed(left, SPEED, 0); 
+  set_motor_speed(right, SPEED, 0); 
 }
 void spin_right(void)
 {

@@ -1,5 +1,5 @@
 MPLINK 4.35, Linker
-Linker Map File - Created Fri Mar 15 10:47:05 2013
+Linker Map File - Created Fri Mar 15 11:17:42 2013
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -21,95 +21,98 @@ Linker Map File - Created Fri Mar 15 10:47:05 2013
           .code_pw2open.o       code   0x001a36    program   0x000076
           .code_fxm3232.o       code   0x001aac    program   0x000070
              .stringtable    romdata   0x001b1c    program   0x00006f
-         .romdata_isbor.o    romdata   0x001b8b    program   0x000000
-           .romdata_osc.o    romdata   0x001b8b    program   0x000000
-         .romdata_c018i.o    romdata   0x001b8b    program   0x000000
-       .romdata_statrst.o    romdata   0x001b8b    program   0x000000
-      .romdata_pw2setdc.o    romdata   0x001b8b    program   0x000000
-      .romdata_pw1setdc.o    romdata   0x001b8b    program   0x000000
-       .romdata_adcconv.o    romdata   0x001b8b    program   0x000000
-       .romdata_adcread.o    romdata   0x001b8b    program   0x000000
-         .romdata_uopen.o    romdata   0x001b8b    program   0x000000
-        .idata_t2open.o_i    romdata   0x001b8b    program   0x000000
+         .romdata_ispor.o    romdata   0x001b8b    program   0x000000
+       .romdata_adcbusy.o    romdata   0x001b8b    program   0x000000
+        .romdata_stdout.o    romdata   0x001b8b    program   0x000000
+      .romdata_adcsetch.o    romdata   0x001b8b    program   0x000000
+       .romdata_adcopen.o    romdata   0x001b8b    program   0x000000
        .idata_pw1open.o_i    romdata   0x001b8b    program   0x000000
+       .romdata_pw1open.o    romdata   0x001b8b    program   0x000000
        .idata_pw2open.o_i    romdata   0x001b8b    program   0x000000
- .romdata_motor_control.o    romdata   0x001b8b    program   0x000000
-          .romdata_putc.o    romdata   0x001b8b    program   0x000000
-    .idata_robot_test.o_i    romdata   0x001b8b    program   0x000000
-       .romdata_fxm3232.o    romdata   0x001b8b    program   0x000000
-          .idata_main.o_i    romdata   0x001b8b    program   0x000000
-      .romdata_sumovore.o    romdata   0x001b8b    program   0x000000
-    .romdata__user_putc.o    romdata   0x001b8b    program   0x000000
-      .idata_vfprintf.o_i    romdata   0x001b8b    program   0x000000
-    .idata_interrupts.o_i    romdata   0x001b8b    program   0x000001
+       .romdata_pw2open.o    romdata   0x001b8b    program   0x000000
+        .romdata___init.o    romdata   0x001b8b    program   0x000000
         .idata_printf.o_i    romdata   0x001b8b    program   0x000000
-       .romdata_iswdtto.o    romdata   0x001b8b    program   0x000000
-.idata_my_delay_functions.o_i    romdata   0x001b8b    program   0x000000
+        .idata_t0open.o_i    romdata   0x001b8b    program   0x000000
          .idata_ispor.o_i    romdata   0x001b8b    program   0x000000
+        .romdata_t0open.o    romdata   0x001b8b    program   0x000000
+         .romdata_uopen.o    romdata   0x001b8b    program   0x000000
+        .romdata_printf.o    romdata   0x001b8b    program   0x000000
+         .idata_uopen.o_i    romdata   0x001b8b    program   0x000000
+    .idata_interrupts.o_i    romdata   0x001b8b    program   0x000001
+    .romdata_interrupts.o    romdata   0x001b8b    program   0x000000
+          .idata_main.o_i    romdata   0x001b8b    program   0x000000
+          .romdata_main.o    romdata   0x001b8b    program   0x000000
+    .idata_robot_test.o_i    romdata   0x001b8b    program   0x000000
+    .romdata_robot_test.o    romdata   0x001b8b    program   0x000000
+.idata_my_delay_functions.o_i    romdata   0x001b8b    program   0x000000
+.romdata_my_delay_functions.o    romdata   0x001b8b    program   0x000000
+      .romdata_fxd3232u.o    romdata   0x001b8b    program   0x000000
           .code_adcopen.o       code   0x001b8c    program   0x00006e
-                   STRING       code   0x001bfa    program   0x000066
-         .code_pw2setdc.o       code   0x001c60    program   0x00005e
-         .code_pw1setdc.o       code   0x001cbe    program   0x00005e
-             .code_main.o       code   0x001d1c    program   0x00005e
-                     PROG       code   0x001d7a    program   0x00005a
-         .code_fxd3232u.o       code   0x001dd4    program   0x000048
-           .code_t2open.o       code   0x001e1c    program   0x000036
-          .code_pw1open.o       code   0x001e52    program   0x000030
-             D10KTCYXCODE       code   0x001e82    program   0x00002e
-         .code_adcsetch.o       code   0x001eb0    program   0x00002e
-       .code_interrupts.o       code   0x001ede    program   0x00002c
-                    CTYPE       code   0x001f0a    program   0x000024
-              D1KTCYXCODE       code   0x001f2e    program   0x000020
-                    .code       code   0x001f4e    program   0x000020
-             _startup_scn       code   0x001f6e    program   0x00001c
-                    STDIO       code   0x001f8a    program   0x00001c
-          .code_iswdtto.o       code   0x001fa6    program   0x000018
-            .code_ispor.o       code   0x001fbe    program   0x000018
-          .code_adcread.o       code   0x001fd6    program   0x000012
-      .romdata_vfprintf.o    romdata   0x001fe8    program   0x000011
-.romdata_my_delay_functions.o    romdata   0x001ff9    program   0x000000
-         .romdata_ispor.o    romdata   0x001ff9    program   0x000000
-       .idata_iswdtto.o_i    romdata   0x001ff9    program   0x000000
-        .romdata_printf.o    romdata   0x001ff9    program   0x000000
-        .romdata_stdout.o    romdata   0x001ff9    program   0x000000
-      .idata_fxd3232u.o_i    romdata   0x001ff9    program   0x000000
-      .romdata_fxd3232u.o    romdata   0x001ff9    program   0x000000
-       .idata_fxm3232.o_i    romdata   0x001ff9    program   0x000000
-    .romdata_robot_test.o    romdata   0x001ff9    program   0x000000
-         .idata_c018i.o_i    romdata   0x001ff9    program   0x000000
- .idata_motor_control.o_i    romdata   0x001ff9    program   0x000000
-          .idata_putc.o_i    romdata   0x001ff9    program   0x000000
-          .romdata_main.o    romdata   0x001ff9    program   0x000000
-    .idata__user_putc.o_i    romdata   0x001ff9    program   0x000000
-    .romdata_interrupts.o    romdata   0x001ff9    program   0x000000
-       .romdata_pw2open.o    romdata   0x001ff9    program   0x000000
-       .romdata_pw1open.o    romdata   0x001ff9    program   0x000000
-       .romdata_adcopen.o    romdata   0x001ff9    program   0x000000
-        .romdata_t2open.o    romdata   0x001ff9    program   0x000000
-       .idata_adcopen.o_i    romdata   0x001ff9    program   0x000000
-         .idata_uopen.o_i    romdata   0x001ff9    program   0x000000
-       .idata_adcread.o_i    romdata   0x001ff9    program   0x000000
-      .idata_adcsetch.o_i    romdata   0x001ff9    program   0x000000
-      .romdata_adcsetch.o    romdata   0x001ff9    program   0x000000
-      .idata_pw1setdc.o_i    romdata   0x001ff9    program   0x000000
-       .idata_adcconv.o_i    romdata   0x001ff9    program   0x000000
-      .idata_pw2setdc.o_i    romdata   0x001ff9    program   0x000000
-       .romdata_adcbusy.o    romdata   0x001ff9    program   0x000000
-           .idata_osc.o_i    romdata   0x001ff9    program   0x000000
-       .idata_statrst.o_i    romdata   0x001ff9    program   0x000000
-         .idata_isbor.o_i    romdata   0x001ff9    program   0x000000
-        .romdata___init.o    romdata   0x001ff9    program   0x000000
-        .idata___init.o_i    romdata   0x001ff9    program   0x000000
-       .idata_adcbusy.o_i    romdata   0x001ff9    program   0x000000
-            .code_c018i.o       code   0x001ffa    program   0x000000
-            .code_isbor.o       code   0x001ffa    program   0x00000c
-           .code_stdout.o       code   0x001ffa    program   0x000000
-          .code_adcbusy.o       code   0x002006    program   0x00000a
-          .code_statrst.o       code   0x002010    program   0x000006
-          .code_adcconv.o       code   0x002016    program   0x000004
-           .code___init.o       code   0x00201a    program   0x000002
-      .idata_sumovore.o_i    romdata   0x00201c    program   0x00000f
-        .idata_stdout.o_i    romdata   0x00202b    program   0x000002
+             .code_main.o       code   0x001bfa    program   0x000068
+                   STRING       code   0x001c62    program   0x000066
+         .code_pw2setdc.o       code   0x001cc8    program   0x00005e
+         .code_pw1setdc.o       code   0x001d26    program   0x00005e
+                     PROG       code   0x001d84    program   0x00005a
+         .code_fxd3232u.o       code   0x001dde    program   0x000048
+           .code_t0open.o       code   0x001e26    program   0x000038
+           .code_t2open.o       code   0x001e5e    program   0x000036
+          .code_pw1open.o       code   0x001e94    program   0x000030
+             D10KTCYXCODE       code   0x001ec4    program   0x00002e
+         .code_adcsetch.o       code   0x001ef2    program   0x00002e
+       .code_interrupts.o       code   0x001f20    program   0x00002c
+                    CTYPE       code   0x001f4c    program   0x000024
+              D1KTCYXCODE       code   0x001f70    program   0x000020
+                    .code       code   0x001f90    program   0x000020
+             _startup_scn       code   0x001fb0    program   0x00001c
+                    STDIO       code   0x001fcc    program   0x00001c
+          .code_iswdtto.o       code   0x001fe8    program   0x000018
+            .code_ispor.o       code   0x002000    program   0x000018
+          .code_adcread.o       code   0x002018    program   0x000012
+      .romdata_vfprintf.o    romdata   0x00202a    program   0x000011
+         .idata_isbor.o_i    romdata   0x00203b    program   0x000000
+         .romdata_isbor.o    romdata   0x00203b    program   0x000000
+       .idata_fxm3232.o_i    romdata   0x00203b    program   0x000000
+      .idata_vfprintf.o_i    romdata   0x00203b    program   0x000000
+       .romdata_fxm3232.o    romdata   0x00203b    program   0x000000
+          .idata_putc.o_i    romdata   0x00203b    program   0x000000
+       .idata_iswdtto.o_i    romdata   0x00203b    program   0x000000
+          .romdata_putc.o    romdata   0x00203b    program   0x000000
+       .romdata_iswdtto.o    romdata   0x00203b    program   0x000000
+      .idata_fxd3232u.o_i    romdata   0x00203b    program   0x000000
+    .romdata__user_putc.o    romdata   0x00203b    program   0x000000
+    .idata__user_putc.o_i    romdata   0x00203b    program   0x000000
+         .idata_c018i.o_i    romdata   0x00203b    program   0x000000
+         .romdata_c018i.o    romdata   0x00203b    program   0x000000
+ .idata_motor_control.o_i    romdata   0x00203b    program   0x000000
+ .romdata_motor_control.o    romdata   0x00203b    program   0x000000
+      .romdata_sumovore.o    romdata   0x00203b    program   0x000000
+           .idata_osc.o_i    romdata   0x00203b    program   0x000000
+           .romdata_osc.o    romdata   0x00203b    program   0x000000
+       .idata_adcbusy.o_i    romdata   0x00203b    program   0x000000
+       .idata_adcconv.o_i    romdata   0x00203b    program   0x000000
+       .romdata_adcconv.o    romdata   0x00203b    program   0x000000
+       .idata_adcopen.o_i    romdata   0x00203b    program   0x000000
+        .idata_t2open.o_i    romdata   0x00203b    program   0x000000
+        .romdata_t2open.o    romdata   0x00203b    program   0x000000
+        .idata___init.o_i    romdata   0x00203b    program   0x000000
+       .romdata_statrst.o    romdata   0x00203b    program   0x000000
+       .idata_statrst.o_i    romdata   0x00203b    program   0x000000
+      .romdata_pw2setdc.o    romdata   0x00203b    program   0x000000
+      .idata_pw2setdc.o_i    romdata   0x00203b    program   0x000000
+      .romdata_pw1setdc.o    romdata   0x00203b    program   0x000000
+       .idata_adcread.o_i    romdata   0x00203b    program   0x000000
+       .romdata_adcread.o    romdata   0x00203b    program   0x000000
+      .idata_adcsetch.o_i    romdata   0x00203b    program   0x000000
+      .idata_pw1setdc.o_i    romdata   0x00203b    program   0x000000
+           .code_stdout.o       code   0x00203c    program   0x000000
+            .code_isbor.o       code   0x00203c    program   0x00000c
+            .code_c018i.o       code   0x00203c    program   0x000000
+          .code_adcbusy.o       code   0x002048    program   0x00000a
+          .code_statrst.o       code   0x002052    program   0x000006
+          .code_adcconv.o       code   0x002058    program   0x000004
+           .code___init.o       code   0x00205c    program   0x000002
+      .idata_sumovore.o_i    romdata   0x00205e    program   0x00000f
+        .idata_stdout.o_i    romdata   0x00206d    program   0x000002
 .config_300001_sumovore.o    romdata   0x300001    program   0x000001
 .config_300002_sumovore.o    romdata   0x300002    program   0x000001
 .config_300003_sumovore.o    romdata   0x300003    program   0x000001
@@ -124,19 +127,20 @@ Linker Map File - Created Fri Mar 15 10:47:05 2013
         .udata_sumovore.o      udata   0x000099       data   0x000002
           .idata_stdout.o      idata   0x00009b       data   0x000002
       .idata_interrupts.o      idata   0x00009d       data   0x000001
-           .idata_ispor.o      idata   0x00009e       data   0x000000
-           .udata_ispor.o      udata   0x00009e       data   0x000000
-           .idata_isbor.o      idata   0x00009e       data   0x000000
-           .udata_isbor.o      udata   0x00009e       data   0x000000
-          .idata___init.o      idata   0x00009e       data   0x000000
-          .udata___init.o      udata   0x00009e       data   0x000000
-         .idata_statrst.o      idata   0x00009e       data   0x000000
-         .udata_statrst.o      udata   0x00009e       data   0x000000
-        .idata_pw2setdc.o      idata   0x00009e       data   0x000000
-        .udata_pw2setdc.o      udata   0x00009e       data   0x000000
-        .idata_pw1setdc.o      idata   0x00009e       data   0x000000
         .udata_pw1setdc.o      udata   0x00009e       data   0x000000
+        .idata_pw1setdc.o      idata   0x00009e       data   0x000000
+        .udata_pw2setdc.o      udata   0x00009e       data   0x000000
+        .idata_pw2setdc.o      idata   0x00009e       data   0x000000
+         .udata_statrst.o      udata   0x00009e       data   0x000000
+         .idata_statrst.o      idata   0x00009e       data   0x000000
+          .udata___init.o      udata   0x00009e       data   0x000000
+          .idata___init.o      idata   0x00009e       data   0x000000
+           .udata_isbor.o      udata   0x00009e       data   0x000000
+           .idata_isbor.o      idata   0x00009e       data   0x000000
+           .udata_ispor.o      udata   0x00009e       data   0x000000
+        .udata_adcsetch.o      udata   0x00009e       data   0x000000
         .idata_adcsetch.o      idata   0x00009e       data   0x000000
+           .idata_ispor.o      idata   0x00009e       data   0x000000
          .udata_iswdtto.o      udata   0x00009e       data   0x000000
          .idata_iswdtto.o      idata   0x00009e       data   0x000000
           .udata_printf.o      udata   0x00009e       data   0x000000
@@ -174,13 +178,14 @@ Linker Map File - Created Fri Mar 15 10:47:05 2013
          .idata_pw1open.o      idata   0x00009e       data   0x000000
          .udata_pw2open.o      udata   0x00009e       data   0x000000
          .idata_pw2open.o      idata   0x00009e       data   0x000000
+          .udata_t0open.o      udata   0x00009e       data   0x000000
+          .idata_t0open.o      idata   0x00009e       data   0x000000
           .udata_t2open.o      udata   0x00009e       data   0x000000
           .idata_t2open.o      idata   0x00009e       data   0x000000
            .udata_uopen.o      udata   0x00009e       data   0x000000
            .idata_uopen.o      idata   0x00009e       data   0x000000
          .udata_adcread.o      udata   0x00009e       data   0x000000
          .idata_adcread.o      idata   0x00009e       data   0x000000
-        .udata_adcsetch.o      udata   0x00009e       data   0x000000
                    .stack      udata   0x000e00       data   0x000100
             SFR_UNBANKED0      udata   0x000f80       data   0x000080
 
@@ -189,11 +194,11 @@ Linker Map File - Created Fri Mar 15 10:47:05 2013
                               Program Memory Usage 
                                Start         End      
                            ---------   ---------      
-                            0x000000    0x001ff8      
-                            0x001ffa    0x00202c      
+                            0x000000    0x00203a      
+                            0x00203c    0x00206e      
                             0x300001    0x300003      
                             0x300005    0x300006      
-            8241 out of 50200 program addresses used, program memory utilization is 16%
+            8307 out of 50200 program addresses used, program memory utilization is 16%
 
 
 
@@ -201,63 +206,64 @@ Linker Map File - Created Fri Mar 15 10:47:05 2013
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
                   BORtask   0x0010a4    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
-                  BusyADC   0x002006    program     extern C:\MCC18\src\pmc_common\ADC\adcbusy.c
-               ConvertADC   0x002016    program     extern C:\MCC18\src\pmc_common\ADC\adcconv.c
-                   D10K_1   0x001e8e    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
-                    D10Kl   0x001e9a    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
-                    D10Kx   0x001e8c    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
-                    D1K_1   0x001f3a    program     static C:\MCC18\src\traditional\delays\d1ktcyx.asm
-                     D1Kx   0x001f38    program     static C:\MCC18\src\traditional\delays\d1ktcyx.asm
-             Delay10KTCYx   0x001e82    program     extern C:\MCC18\src\traditional\delays\d10ktcyx.asm
-              Delay1KTCYx   0x001f2e    program     extern C:\MCC18\src\traditional\delays\d1ktcyx.asm
-                 FXD3232U   0x001dd4    program     extern C:\MCC18\src\traditional\math\fxd3232u.c
-                 FXM1616S   0x001d7a    program     extern C:\MCC18\src\traditional\math\fxm1616s.asm
+                  BusyADC   0x002048    program     extern C:\MCC18\src\pmc_common\ADC\adcbusy.c
+               ConvertADC   0x002058    program     extern C:\MCC18\src\pmc_common\ADC\adcconv.c
+                   D10K_1   0x001ed0    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x001edc    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x001ece    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+                    D1K_1   0x001f7c    program     static C:\MCC18\src\traditional\delays\d1ktcyx.asm
+                     D1Kx   0x001f7a    program     static C:\MCC18\src\traditional\delays\d1ktcyx.asm
+             Delay10KTCYx   0x001ec4    program     extern C:\MCC18\src\traditional\delays\d10ktcyx.asm
+              Delay1KTCYx   0x001f70    program     extern C:\MCC18\src\traditional\delays\d1ktcyx.asm
+                 FXD3232U   0x001dde    program     extern C:\MCC18\src\traditional\math\fxd3232u.c
+                 FXM1616S   0x001d84    program     extern C:\MCC18\src\traditional\math\fxm1616s.asm
                   FXM3232   0x001aac    program     extern C:\MCC18\src\traditional\math\fxm3232.c
                    LVtrap   0x001152    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
                   OpenADC   0x001b8c    program     extern C:\MCC18\src\pmc_common\ADC\adcopen.c
-                 OpenPWM1   0x001e52    program     extern C:\MCC18\src\pmc_common\PWM\pw1open.c
-         OpenPWM1ConfigIO   0x001e7e    program     extern C:\MCC18\src\pmc_common\PWM\pw1open.c
+                 OpenPWM1   0x001e94    program     extern C:\MCC18\src\pmc_common\PWM\pw1open.c
+         OpenPWM1ConfigIO   0x001ec0    program     extern C:\MCC18\src\pmc_common\PWM\pw1open.c
                  OpenPWM2   0x001a36    program     extern C:\MCC18\src\pmc_common\PWM\pw2open.c
-               OpenTimer2   0x001e1c    program     extern C:\MCC18\src\pmc_common\Timers\t2open.c
+               OpenTimer0   0x001e26    program     extern C:\MCC18\src\pmc_common\Timers\t0open.c
+               OpenTimer2   0x001e5e    program     extern C:\MCC18\src\pmc_common\Timers\t2open.c
                 OpenUSART   0x001928    program     extern C:\MCC18\src\pmc_common\USART\uopen.c
                   PORtask   0x000faa    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
                 RESETtask   0x001116    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
-                  ReadADC   0x001fd6    program     extern C:\MCC18\src\pmc_common\ADC\adcread.c
+                  ReadADC   0x002018    program     extern C:\MCC18\src\pmc_common\ADC\adcread.c
                STKFULtask   0x0010f0    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
-               SetChanADC   0x001eb0    program     extern C:\MCC18\src\pmc_common\ADC\adcsetch.c
-                SetDCPWM1   0x001cbe    program     extern C:\MCC18\src\pmc_common\PWM\pw1setdc.c
-                SetDCPWM2   0x001c60    program     extern C:\MCC18\src\pmc_common\PWM\pw2setdc.c
-              StatusReset   0x002010    program     extern C:\MCC18\src\pmc_common\reset\statrst.c
-               TSIGN1616A   0x001dc6    program     static C:\MCC18\src\traditional\math\fxm1616s.asm
+               SetChanADC   0x001ef2    program     extern C:\MCC18\src\pmc_common\ADC\adcsetch.c
+                SetDCPWM1   0x001d26    program     extern C:\MCC18\src\pmc_common\PWM\pw1setdc.c
+                SetDCPWM2   0x001cc8    program     extern C:\MCC18\src\pmc_common\PWM\pw2setdc.c
+              StatusReset   0x002052    program     extern C:\MCC18\src\pmc_common\reset\statrst.c
+               TSIGN1616A   0x001dd0    program     static C:\MCC18\src\traditional\math\fxm1616s.asm
                   WDTtask   0x0010cc    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
-                   _2jEnd   0x001c4a    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
-       _D10KTCYXCODE_0010   0x001e92    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x001e9e    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
-        _D1KTCYXCODE_0010   0x001f3e    program     static C:\MCC18\src\traditional\delays\d1ktcyx.asm
-        _D1KTCYXCODE_0016   0x001f44    program     static C:\MCC18\src\traditional\delays\d1ktcyx.asm
+                   _2jEnd   0x001cb2    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+       _D10KTCYXCODE_0010   0x001ed4    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x001ee0    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+        _D1KTCYXCODE_0010   0x001f80    program     static C:\MCC18\src\traditional\delays\d1ktcyx.asm
+        _D1KTCYXCODE_0016   0x001f86    program     static C:\MCC18\src\traditional\delays\d1ktcyx.asm
          ___else_lbl00002   0x001a72    program     static                          
          ___else_lbl00004   0x001a80    program     static                          
          ___else_lbl00035   0x001058    program     static                          
          ___else_lbl00047   0x0011c0    program     static                          
            ___if_lbl00001   0x001a76    program     static                          
+           ___if_lbl00003   0x001c44    program     static                          
            ___if_lbl00003   0x001a82    program     static                          
-           ___if_lbl00003   0x001d5c    program     static                          
            ___if_lbl00033   0x00107a    program     static                          
            ___if_lbl00034   0x00107a    program     static                          
            ___if_lbl00045   0x0011e0    program     static                          
            ___if_lbl00046   0x0011e0    program     static                          
-       ___return_lbl00000   0x001d5e    program     static                          
-       ___return_lbl00000   0x001a94    program     static                          
-       ___return_lbl00000   0x001b1a    program     static                          
+       ___return_lbl00000   0x001c46    program     static                          
        ___return_lbl00000   0x00000c    program     static                          
-       ___return_lbl00000   0x001e1a    program     static                          
+       ___return_lbl00000   0x001a94    program     static                          
+       ___return_lbl00000   0x001e24    program     static                          
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00001   0x001f88    program     static                          
+       ___return_lbl00000   0x001b1a    program     static                          
+       ___return_lbl00001   0x001fca    program     static                          
        ___return_lbl00002   0x00188e    program     static                          
        ___return_lbl00030   0x001090    program     static                          
        ___return_lbl00042   0x0011f4    program     static                          
-        ___while_lbl00001   0x001d42    program     static                          
-        ___while_lbl00002   0x001d5e    program     static                          
+        ___while_lbl00001   0x001c2a    program     static                          
+        ___while_lbl00002   0x001c46    program     static                          
         ___while_lbl00031   0x000ff6    program     static                          
         ___while_lbl00032   0x001090    program     static                          
         ___while_lbl00043   0x001190    program     static                          
@@ -267,7 +273,7 @@ Linker Map File - Created Fri Mar 15 10:47:05 2013
                __config_2   0x300003    program     static C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
                __config_3   0x300005    program     static C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
                __config_4   0x300006    program     static C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
-                   __init   0x00201a    program     extern C:\MCC18\src\traditional\stdclib\__init.c
+                   __init   0x00205c    program     extern C:\MCC18\src\traditional\stdclib\__init.c
                    __pa_0   0x000974    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                    __pa_1   0x00097c    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_10   0x000a30    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
@@ -315,8 +321,8 @@ Linker Map File - Created Fri Mar 15 10:47:05 2013
                    __pa_7   0x0009e2    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                    __pa_8   0x0009ee    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                    __pa_9   0x000a10    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-               __string_0   0x001b1c    program     static C:\Users\Brad\Documents\GitHub\hermesbot\main.c
                __string_0   0x001b85    program     static C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
+               __string_0   0x001b1c    program     static C:\Users\Brad\Documents\GitHub\hermesbot\main.c
                __string_1   0x001b7f    program     static C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
                __string_2   0x001b76    program     static C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
                __string_3   0x001b6d    program     static C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
@@ -331,16 +337,16 @@ Linker Map File - Created Fri Mar 15 10:47:05 2013
               __tmplbl_43   0x000952    program     static                          
               __tmplbl_44   0x000938    program     static                          
               __tmplbl_85   0x00008a    program     static                          
-            __zero_memory   0x001f4e    program     extern C:\MCC18\src\traditional\proc\p18F4525.asm
+            __zero_memory   0x001f90    program     extern C:\MCC18\src\traditional\proc\p18F4525.asm
                 _do_cinit   0x0017f2    program     extern C:\MCC18\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern C:\MCC18\src\traditional\startup\c018i.c
-                   _false   0x001e16    program     static                          
-                 _startup   0x001f6e    program     extern C:\MCC18\src\traditional\startup\c018i.c
-              _usart_putc   0x001f8a    program     extern C:\MCC18\src\pmc_common\USART\_usartpc.asm
+                   _false   0x001e20    program     static                          
+                 _startup   0x001fb0    program     extern C:\MCC18\src\traditional\startup\c018i.c
+              _usart_putc   0x001fcc    program     extern C:\MCC18\src\pmc_common\USART\_usartpc.asm
                _user_putc   0x000006    program     extern C:\MCC18\src\traditional\stdclib\_user_putc.c
                       adc   0x000e6a    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
             check_sensors   0x000e96    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
-                compare_l   0x001f64    program     static C:\MCC18\src\traditional\proc\p18F4525.asm
+                compare_l   0x001fa6    program     static C:\MCC18\src\traditional\proc\p18F4525.asm
                 copy_loop   0x001864    program     static                          
             copy_one_byte   0x00186a    program     static                          
                 delay_1CS   0x00179a    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\my_delay_functions.c
@@ -350,26 +356,26 @@ Linker Map File - Created Fri Mar 15 10:47:05 2013
                      done   0x00188e    program     static                          
              done_copying   0x001878    program     static                          
                     gtrap   0x001178    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
-                 high_isr   0x001ede    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\interrupts.c
+                 high_isr   0x001f20    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\interrupts.c
            initialization   0x000c56    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
  interrupt_at_high_vector   0x000008    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\interrupts.c
-                    isBOR   0x001ffa    program     extern C:\MCC18\src\pmc_common\reset\isbor.c
-                    isPOR   0x001fbe    program     extern C:\MCC18\src\pmc_common\reset\ispor.c
-                  isWDTTO   0x001fa6    program     extern C:\MCC18\src\pmc_common\reset\iswdtto.c
-                  isdigit   0x001f0a    program     extern C:\MCC18\src\traditional\stdclib\isdigit.asm
-                     jEnd   0x001c4c    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                     jEnd   0x001c14    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
-                    jLoop   0x001c34    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                    jLoop   0x001c0a    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
-                   jMatch   0x001f2a    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
-                 jNoMatch   0x001f2c    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
-                     loop   0x001f9a    program     static C:\MCC18\src\pmc_common\USART\_usartpc.asm
-                     loop   0x001de2    program     static                          
-                     loop   0x001f7e    program     static                          
-                   loop_h   0x001f5c    program     static C:\MCC18\src\traditional\proc\p18F4525.asm
-                   loop_l   0x001f66    program     static C:\MCC18\src\traditional\proc\p18F4525.asm
-             lvd_flag_set   0x001f04    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\interrupts.c
-                     main   0x001d1c    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\main.c
+                    isBOR   0x00203c    program     extern C:\MCC18\src\pmc_common\reset\isbor.c
+                    isPOR   0x002000    program     extern C:\MCC18\src\pmc_common\reset\ispor.c
+                  isWDTTO   0x001fe8    program     extern C:\MCC18\src\pmc_common\reset\iswdtto.c
+                  isdigit   0x001f4c    program     extern C:\MCC18\src\traditional\stdclib\isdigit.asm
+                     jEnd   0x001cb4    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                     jEnd   0x001c7c    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+                    jLoop   0x001c9c    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x001c72    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+                   jMatch   0x001f6c    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
+                 jNoMatch   0x001f6e    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
+                     loop   0x001fdc    program     static C:\MCC18\src\pmc_common\USART\_usartpc.asm
+                     loop   0x001dec    program     static                          
+                     loop   0x001fc0    program     static                          
+                   loop_h   0x001f9e    program     static C:\MCC18\src\traditional\proc\p18F4525.asm
+                   loop_l   0x001fa8    program     static C:\MCC18\src\traditional\proc\p18F4525.asm
+             lvd_flag_set   0x001f46    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\interrupts.c
+                     main   0x001bfa    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\main.c
             motor_control   0x0015ee    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\motor_control.c
          motors_brake_all   0x000e40    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
                   openLVD   0x00113a    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
@@ -381,10 +387,10 @@ Linker Map File - Created Fri Mar 15 10:47:05 2013
                 openPORTE   0x000d3a    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
                    printf   0x001890    program     extern C:\MCC18\src\traditional\stdclib\printf.c
                      putc   0x0019b2    program     extern C:\MCC18\src\traditional\stdclib\putc.c
-               robot_test   0x001d60    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\main.c
+               robot_test   0x001c48    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\main.c
           robot_test_left   0x001208    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\robot_test.c
          robot_test_right   0x00130e    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\robot_test.c
-                 s_digits   0x001fe8    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                 s_digits   0x00202a    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
             s_put_n_chars   0x000034    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                  set_leds   0x000f6a    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
           set_motor_speed   0x000d3e    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
@@ -397,13 +403,13 @@ Linker Map File - Created Fri Mar 15 10:47:05 2013
                 spin_left   0x001624    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\motor_control.c
                spin_right   0x0016be    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\motor_control.c
              straight_fwd   0x00168a    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\motor_control.c
-                   strlen   0x001bfa    program     extern C:\MCC18\src\traditional\stdclib\strlen.asm
-                strlenpgm   0x001c16    program     extern C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                   strlen   0x001c62    program     extern C:\MCC18\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x001c7e    program     extern C:\MCC18\src\traditional\stdclib\slenpgm.asm
                      test   0x00180c    program     static                          
                 turn_left   0x001656    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\motor_control.c
                turn_right   0x0016f0    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\motor_control.c
                  vfprintf   0x000060    program     extern C:\MCC18\src\traditional\stdclib\vfprintf.c
-               zero_block   0x001f5c    program     static C:\MCC18\src\traditional\proc\p18F4525.asm
+               zero_block   0x001f9e    program     static C:\MCC18\src\traditional\proc\p18F4525.asm
                    ADCON0   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F4525.asm
                ADCON0bits   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F4525.asm
                    ADCON1   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F4525.asm
@@ -679,8 +685,8 @@ Linker Map File - Created Fri Mar 15 10:47:05 2013
                   __pa_19   0x000ada    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_20   0x000aea    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_21   0x000afa    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-              __tmplbl_42   0x000b0a    program     static                          
                   __pa_22   0x000b0a    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+              __tmplbl_42   0x000b0a    program     static                          
                   __pa_23   0x000b16    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_24   0x000b24    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_25   0x000b2c    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
@@ -723,8 +729,8 @@ Linker Map File - Created Fri Mar 15 10:47:05 2013
               __tmplbl_11   0x00102e    program     static                          
          ___else_lbl00035   0x001058    program     static                          
               __tmplbl_12   0x001074    program     static                          
-           ___if_lbl00033   0x00107a    program     static                          
            ___if_lbl00034   0x00107a    program     static                          
+           ___if_lbl00033   0x00107a    program     static                          
         ___while_lbl00032   0x001090    program     static                          
        ___return_lbl00030   0x001090    program     static                          
                   BORtask   0x0010a4    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
@@ -740,8 +746,8 @@ Linker Map File - Created Fri Mar 15 10:47:05 2013
               __tmplbl_14   0x0011da    program     static                          
            ___if_lbl00045   0x0011e0    program     static                          
            ___if_lbl00046   0x0011e0    program     static                          
-       ___return_lbl00042   0x0011f4    program     static                          
         ___while_lbl00044   0x0011f4    program     static                          
+       ___return_lbl00042   0x0011f4    program     static                          
           robot_test_left   0x001208    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\robot_test.c
          robot_test_right   0x00130e    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\robot_test.c
             set_osc_32MHz   0x001422    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\osc.c
@@ -765,8 +771,8 @@ Linker Map File - Created Fri Mar 15 10:47:05 2013
                 copy_loop   0x001864    program     static                          
             copy_one_byte   0x00186a    program     static                          
              done_copying   0x001878    program     static                          
-                     done   0x00188e    program     static                          
        ___return_lbl00002   0x00188e    program     static                          
+                     done   0x00188e    program     static                          
                    printf   0x001890    program     extern C:\MCC18\src\traditional\stdclib\printf.c
                 OpenUSART   0x001928    program     extern C:\MCC18\src\pmc_common\USART\uopen.c
                      putc   0x0019b2    program     extern C:\MCC18\src\traditional\stdclib\putc.c
@@ -786,66 +792,67 @@ Linker Map File - Created Fri Mar 15 10:47:05 2013
                __string_1   0x001b7f    program     static C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
                __string_0   0x001b85    program     static C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
                   OpenADC   0x001b8c    program     extern C:\MCC18\src\pmc_common\ADC\adcopen.c
-                   strlen   0x001bfa    program     extern C:\MCC18\src\traditional\stdclib\strlen.asm
-                    jLoop   0x001c0a    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
-                     jEnd   0x001c14    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
-                strlenpgm   0x001c16    program     extern C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                    jLoop   0x001c34    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                   _2jEnd   0x001c4a    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                     jEnd   0x001c4c    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                SetDCPWM2   0x001c60    program     extern C:\MCC18\src\pmc_common\PWM\pw2setdc.c
-                SetDCPWM1   0x001cbe    program     extern C:\MCC18\src\pmc_common\PWM\pw1setdc.c
-                     main   0x001d1c    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\main.c
-        ___while_lbl00001   0x001d42    program     static                          
-           ___if_lbl00003   0x001d5c    program     static                          
-       ___return_lbl00000   0x001d5e    program     static                          
-        ___while_lbl00002   0x001d5e    program     static                          
-               robot_test   0x001d60    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\main.c
-                 FXM1616S   0x001d7a    program     extern C:\MCC18\src\traditional\math\fxm1616s.asm
-               TSIGN1616A   0x001dc6    program     static C:\MCC18\src\traditional\math\fxm1616s.asm
-                 FXD3232U   0x001dd4    program     extern C:\MCC18\src\traditional\math\fxd3232u.c
-                     loop   0x001de2    program     static                          
-                   _false   0x001e16    program     static                          
-       ___return_lbl00000   0x001e1a    program     static                          
-               OpenTimer2   0x001e1c    program     extern C:\MCC18\src\pmc_common\Timers\t2open.c
-                 OpenPWM1   0x001e52    program     extern C:\MCC18\src\pmc_common\PWM\pw1open.c
-         OpenPWM1ConfigIO   0x001e7e    program     extern C:\MCC18\src\pmc_common\PWM\pw1open.c
-             Delay10KTCYx   0x001e82    program     extern C:\MCC18\src\traditional\delays\d10ktcyx.asm
-                    D10Kx   0x001e8c    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
-                   D10K_1   0x001e8e    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_0010   0x001e92    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
-                    D10Kl   0x001e9a    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x001e9e    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
-               SetChanADC   0x001eb0    program     extern C:\MCC18\src\pmc_common\ADC\adcsetch.c
-                 high_isr   0x001ede    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\interrupts.c
-             lvd_flag_set   0x001f04    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\interrupts.c
-                  isdigit   0x001f0a    program     extern C:\MCC18\src\traditional\stdclib\isdigit.asm
-                   jMatch   0x001f2a    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
-                 jNoMatch   0x001f2c    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
-              Delay1KTCYx   0x001f2e    program     extern C:\MCC18\src\traditional\delays\d1ktcyx.asm
-                     D1Kx   0x001f38    program     static C:\MCC18\src\traditional\delays\d1ktcyx.asm
-                    D1K_1   0x001f3a    program     static C:\MCC18\src\traditional\delays\d1ktcyx.asm
-        _D1KTCYXCODE_0010   0x001f3e    program     static C:\MCC18\src\traditional\delays\d1ktcyx.asm
-        _D1KTCYXCODE_0016   0x001f44    program     static C:\MCC18\src\traditional\delays\d1ktcyx.asm
-            __zero_memory   0x001f4e    program     extern C:\MCC18\src\traditional\proc\p18F4525.asm
-               zero_block   0x001f5c    program     static C:\MCC18\src\traditional\proc\p18F4525.asm
-                   loop_h   0x001f5c    program     static C:\MCC18\src\traditional\proc\p18F4525.asm
-                compare_l   0x001f64    program     static C:\MCC18\src\traditional\proc\p18F4525.asm
-                   loop_l   0x001f66    program     static C:\MCC18\src\traditional\proc\p18F4525.asm
-                 _startup   0x001f6e    program     extern C:\MCC18\src\traditional\startup\c018i.c
-                     loop   0x001f7e    program     static                          
-       ___return_lbl00001   0x001f88    program     static                          
-              _usart_putc   0x001f8a    program     extern C:\MCC18\src\pmc_common\USART\_usartpc.asm
-                     loop   0x001f9a    program     static C:\MCC18\src\pmc_common\USART\_usartpc.asm
-                  isWDTTO   0x001fa6    program     extern C:\MCC18\src\pmc_common\reset\iswdtto.c
-                    isPOR   0x001fbe    program     extern C:\MCC18\src\pmc_common\reset\ispor.c
-                  ReadADC   0x001fd6    program     extern C:\MCC18\src\pmc_common\ADC\adcread.c
-                 s_digits   0x001fe8    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                    isBOR   0x001ffa    program     extern C:\MCC18\src\pmc_common\reset\isbor.c
-                  BusyADC   0x002006    program     extern C:\MCC18\src\pmc_common\ADC\adcbusy.c
-              StatusReset   0x002010    program     extern C:\MCC18\src\pmc_common\reset\statrst.c
-               ConvertADC   0x002016    program     extern C:\MCC18\src\pmc_common\ADC\adcconv.c
-                   __init   0x00201a    program     extern C:\MCC18\src\traditional\stdclib\__init.c
+                     main   0x001bfa    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\main.c
+        ___while_lbl00001   0x001c2a    program     static                          
+           ___if_lbl00003   0x001c44    program     static                          
+        ___while_lbl00002   0x001c46    program     static                          
+       ___return_lbl00000   0x001c46    program     static                          
+               robot_test   0x001c48    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\main.c
+                   strlen   0x001c62    program     extern C:\MCC18\src\traditional\stdclib\strlen.asm
+                    jLoop   0x001c72    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+                     jEnd   0x001c7c    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x001c7e    program     extern C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x001c9c    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                   _2jEnd   0x001cb2    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                     jEnd   0x001cb4    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                SetDCPWM2   0x001cc8    program     extern C:\MCC18\src\pmc_common\PWM\pw2setdc.c
+                SetDCPWM1   0x001d26    program     extern C:\MCC18\src\pmc_common\PWM\pw1setdc.c
+                 FXM1616S   0x001d84    program     extern C:\MCC18\src\traditional\math\fxm1616s.asm
+               TSIGN1616A   0x001dd0    program     static C:\MCC18\src\traditional\math\fxm1616s.asm
+                 FXD3232U   0x001dde    program     extern C:\MCC18\src\traditional\math\fxd3232u.c
+                     loop   0x001dec    program     static                          
+                   _false   0x001e20    program     static                          
+       ___return_lbl00000   0x001e24    program     static                          
+               OpenTimer0   0x001e26    program     extern C:\MCC18\src\pmc_common\Timers\t0open.c
+               OpenTimer2   0x001e5e    program     extern C:\MCC18\src\pmc_common\Timers\t2open.c
+                 OpenPWM1   0x001e94    program     extern C:\MCC18\src\pmc_common\PWM\pw1open.c
+         OpenPWM1ConfigIO   0x001ec0    program     extern C:\MCC18\src\pmc_common\PWM\pw1open.c
+             Delay10KTCYx   0x001ec4    program     extern C:\MCC18\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x001ece    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+                   D10K_1   0x001ed0    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_0010   0x001ed4    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x001edc    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x001ee0    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+               SetChanADC   0x001ef2    program     extern C:\MCC18\src\pmc_common\ADC\adcsetch.c
+                 high_isr   0x001f20    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\interrupts.c
+             lvd_flag_set   0x001f46    program     extern C:\Users\Brad\Documents\GitHub\hermesbot\interrupts.c
+                  isdigit   0x001f4c    program     extern C:\MCC18\src\traditional\stdclib\isdigit.asm
+                   jMatch   0x001f6c    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
+                 jNoMatch   0x001f6e    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
+              Delay1KTCYx   0x001f70    program     extern C:\MCC18\src\traditional\delays\d1ktcyx.asm
+                     D1Kx   0x001f7a    program     static C:\MCC18\src\traditional\delays\d1ktcyx.asm
+                    D1K_1   0x001f7c    program     static C:\MCC18\src\traditional\delays\d1ktcyx.asm
+        _D1KTCYXCODE_0010   0x001f80    program     static C:\MCC18\src\traditional\delays\d1ktcyx.asm
+        _D1KTCYXCODE_0016   0x001f86    program     static C:\MCC18\src\traditional\delays\d1ktcyx.asm
+            __zero_memory   0x001f90    program     extern C:\MCC18\src\traditional\proc\p18F4525.asm
+               zero_block   0x001f9e    program     static C:\MCC18\src\traditional\proc\p18F4525.asm
+                   loop_h   0x001f9e    program     static C:\MCC18\src\traditional\proc\p18F4525.asm
+                compare_l   0x001fa6    program     static C:\MCC18\src\traditional\proc\p18F4525.asm
+                   loop_l   0x001fa8    program     static C:\MCC18\src\traditional\proc\p18F4525.asm
+                 _startup   0x001fb0    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                     loop   0x001fc0    program     static                          
+       ___return_lbl00001   0x001fca    program     static                          
+              _usart_putc   0x001fcc    program     extern C:\MCC18\src\pmc_common\USART\_usartpc.asm
+                     loop   0x001fdc    program     static C:\MCC18\src\pmc_common\USART\_usartpc.asm
+                  isWDTTO   0x001fe8    program     extern C:\MCC18\src\pmc_common\reset\iswdtto.c
+                    isPOR   0x002000    program     extern C:\MCC18\src\pmc_common\reset\ispor.c
+                  ReadADC   0x002018    program     extern C:\MCC18\src\pmc_common\ADC\adcread.c
+                 s_digits   0x00202a    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                    isBOR   0x00203c    program     extern C:\MCC18\src\pmc_common\reset\isbor.c
+                  BusyADC   0x002048    program     extern C:\MCC18\src\pmc_common\ADC\adcbusy.c
+              StatusReset   0x002052    program     extern C:\MCC18\src\pmc_common\reset\statrst.c
+               ConvertADC   0x002058    program     extern C:\MCC18\src\pmc_common\ADC\adcconv.c
+                   __init   0x00205c    program     extern C:\MCC18\src\traditional\stdclib\__init.c
                __config_0   0x300001    program     static C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
                __config_1   0x300002    program     static C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
                __config_2   0x300003    program     static C:\Users\Brad\Documents\GitHub\hermesbot\sumovore.c
