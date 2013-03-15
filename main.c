@@ -6,12 +6,12 @@
 #include "interrupts.h"
 #include "robot_test.h"
 
-void robot_test(void);
+void Robot_track_end(void);
 
 // main acts as a cyclical task sequencer
 void main(void)
 {
-           OpenTimer0(TIMER_INT_OFF & T0_SOURCE_INT & T0_16BIT & T0_PS_1_256);
+           OpenTimer0(TIMER_INT_OFF & T0_SOURCE_INT & T0_16BIT & T0_PS_1_64);
     initialization(); // function from sumovore.c
                       // it sets up pwm (using timer2),
                       // IO pins, the ADC, the 
@@ -25,24 +25,48 @@ void main(void)
 
     while(1)
     {
-	//	set_motor_speed(left, medium, 0);               
-	//	set_motor_speed(right, medium, 0);
+
        check_sensors();    // from sumovore.c
         set_leds();         // function from sumovore.c
-	                    // each LED indicates a sensor
-	                    // value. If you need to use the LED's for
-	    //set_motor_speed(left, fast, 0);               
-		//set_motor_speed(right, slow, 0);
-	                    // and make your own LED setting function
+        switch(SeeLine.B) // this is a switch based on the sensor values, SeeLine.B allows us to input sensor states as a 5 bit binary value
+							// it is already built into sumovore.c , so 0b11111 is all the sensors are on and 0b00000 is all sensors off
+        {
+            case 0b00100: motor_control();	
+           	   break;
+            case 0b01110: motor_control();	
+           	   break; 
+            case 0:	Robot_track_end();
+               break; 
+ 
+        } 
       motor_control();    // function from motor_control.c 
        ClrWdt();           // defined in <p18f4525.h>
+		if(SeeLine.B==0)
+			{
+
+			}
       if(lvd_flag_set())  LVtrap();
     }
 }
 
 
-void robot_test(void)
+
+
+void Robot_track_end(void)
 {
-	set_motor_speed(left, slow, 0); 
+	WriteTimer0(0);
+		while((ReadTimer0()<40000) && (SeeLine.B==0))
+			{
+			  set_motor_speed(left, medium, 0); 
+			  set_motor_speed(right, medium, 0); 
+			}
+		if(ReadTimer0()>40000  )
+			{	
+				while(SeeLine.B==0)
+				{	
+				  set_motor_speed(left, rev_slow, 0); 
+				  set_motor_speed(right, rev_slow, 0); 
+				}
+			}
 }
 
